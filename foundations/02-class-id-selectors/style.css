@@ -1,0 +1,19 @@
+.red {
+    background-color: pink;
+    font-family: 'Verdana and DejaVu Sans', sans-serif;
+}
+
+#div {
+    color: blue;
+    font-size: 36px;
+}
+
+.single {
+    font-size: 36px;
+}
+
+#anotherDiv {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
