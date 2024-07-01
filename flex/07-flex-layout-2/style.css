@@ -7,7 +7,12 @@ body {
 .header {
   height: 72px;
   background: darkmagenta;
+  display: flex;
+  align-items: center;
   color: white;
+  padding-left: 32px;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .footer {
@@ -26,4 +31,48 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/* Solution */
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  color: white;
+  text-decoration-line: none;
+  margin: 12px;
+  font-size: 20px;
+}
+
+.heroContainer {
+  display: flex;
+  height: calc(100vh - 144px);
+}
+
+.sidebar {
+  flex-shrink: 0;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px;
+}
+
+.cardContainer > .card {
+  flex: 1 0 300px;
+  padding: 24px;
+  background-color: #eee;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
